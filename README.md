@@ -1,12 +1,30 @@
-# React + Vite
+# oscode-registration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the official registration website for Hackathon and Ideathon events at Sambhram Institute of Technology, built by the OSCODE community.
 
-Currently, two official plugins are available:
+## 🔧 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: React + Vite
+- **Styling**: Tailwind CSS
+- **Database**: Supabase (PostgreSQL)
+- **Email Service**: EmailJS (for confirmation emails)
 
-## Expanding the ESLint configuration
+## ✅ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Register for Hackathon / Ideathon / Both
+- Stores registration data securely in Supabase
+- Sends confirmation email instantly using EmailJS
+- Clean, mobile-responsive design
+
+## 🧑‍🎓 Eligibility
+
+Only students of **Sambhram Institute of Technology** are allowed to register.
+
+## 🚀 How to Run Locally
+
+```bash
+git clone https://github.com/shailaja-poojari/oscode-registration.git
+cd oscode-registration
+npm install
+npm run dev
+
