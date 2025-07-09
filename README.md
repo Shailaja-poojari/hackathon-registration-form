@@ -1,18 +1,19 @@
-# oscode-registration
+# 🎓 SaIT Hackathon Registration Portal
 
-This is the official registration website for Hackathon and Ideathon events at Sambhram Institute of Technology, built by the OSCODE community.
+A fully responsive **full-stack web application** built to register students for Hackathon/Ideathon events at **Sambhram Institute of Technology**,using React (Frontend), Supabase (Backend & Database), and EmailJS (Email Service).This is a full-stack web application using modern serverless architecture with client-side form validation, live participant counter, and email notifications.
 
 ## 🔧 Tech Stack
 
 - **Frontend**: React + Vite
 - **Styling**: Tailwind CSS
-- **Database**: Supabase (PostgreSQL)
+- **Backend**: Supabase (PostgreSQL)-Database-as-a-Service
 - **Email Service**: EmailJS (for confirmation emails)
+- **Deployment**:Vercel/Netlify
 
 ## ✅ Features
 
-- Register for Hackathon / Ideathon / Both
-- Stores registration data securely in Supabase
+- Clean and responsive register for Hackathon / Ideathon / Both
+- Stores registration data securely in Supabase (Real-time participation count)
 - Sends confirmation email instantly using EmailJS
 - Clean, mobile-responsive design
 
@@ -27,4 +28,15 @@ git clone https://github.com/shailaja-poojari/oscode-registration.git
 cd oscode-registration
 npm install
 npm run dev
+
+Folder Structure
+src/
+├── components/
+│   ├── RegistrationForm.jsx
+│   └── ParticipantCount.jsx
+├── lib/
+│   └── supabaseClient.js
+├── App.jsx
+├── main.jsx
+├── index.css
 
