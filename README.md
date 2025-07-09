@@ -1,6 +1,16 @@
 # 🎓 SaIT Hackathon Registration Portal
 
 A fully responsive **full-stack web application** built to register students for Hackathon/Ideathon events at **Sambhram Institute of Technology**,using React (Frontend), Supabase (Backend & Database), and EmailJS (Email Service).This is a full-stack web application using modern serverless architecture with client-side form validation, live participant counter, and email notifications.
+Folder Structure: 
+src/
+├── components/
+│   ├── RegistrationForm.jsx
+│   └── ParticipantCount.jsx
+├── lib/
+│   └── supabaseClient.js
+├── App.jsx
+├── main.jsx
+├── index.css
 
 ## 🔧 Tech Stack
 
@@ -29,14 +39,5 @@ cd oscode-registration
 npm install
 npm run dev
 
-Folder Structure
-src/
-├── components/
-│   ├── RegistrationForm.jsx
-│   └── ParticipantCount.jsx
-├── lib/
-│   └── supabaseClient.js
-├── App.jsx
-├── main.jsx
-├── index.css
+
 
